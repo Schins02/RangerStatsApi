@@ -1,12 +1,7 @@
 package db;
 
-/**
- * Created by johnschindler on 9/30/17.
- */
-
-
 import com.google.common.base.Optional;
-import core.Player;
+import core.model.Player;
 import io.dropwizard.hibernate.AbstractDAO;
 import org.hibernate.SessionFactory;
 
@@ -20,5 +15,9 @@ public class PlayerDAO extends AbstractDAO<Player> {
 
     public Optional<Player> findById(Long id) {
         return Optional.fromNullable(get(id));
+    }
+
+    public List<Player> findAll() {
+        return list(namedQuery("core.model.Player.findAll"));
     }
 }

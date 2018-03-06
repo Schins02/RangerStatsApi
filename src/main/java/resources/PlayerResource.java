@@ -5,7 +5,7 @@ import javax.ws.rs.core.MediaType;
 import java.util.List;
 
 import com.google.common.base.Optional;
-import core.Player;
+import core.model.Player;
 import db.PlayerDAO;
 import io.dropwizard.hibernate.UnitOfWork;
 import io.dropwizard.jersey.params.LongParam;
@@ -26,4 +26,20 @@ public class PlayerResource {
     public Optional<Player> findById(@PathParam("id") LongParam id) {
         return playerDAO.findById(id.get());
     }
+
+    @GET
+    @Path("/all")
+    @UnitOfWork
+    public List<Player> findAll() {
+        return playerDAO.findAll();
+    }
+
+//    @GET
+//    @Path("/{id}/stats/{year}")
+//    @UnitOfWork
+//    public Map<Player, >
+
+
+    //stats for player
+
 }
