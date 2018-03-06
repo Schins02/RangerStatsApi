@@ -10,6 +10,5 @@ database:
   #password:
 
   # the JDBC URL
-  #url: jdbc:postgresql://db.example.com/db-prod
   url: jdbc:postgresql://localhost/rangersstats
 

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d51b1d0-3246-48c7-b32c-228b5be02eb4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yml" afterPath="$PROJECT_DIR$/config.yml" />
     </list>
     <ignored path="RangersStatsApi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,8 +71,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -81,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+              <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -173,7 +174,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ApiApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApiConfig.java" />
-        <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/db/SeasonStatDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/SeasonStat.java" />
@@ -198,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/main/java/resources/PitcherGameRecordResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/PitcherGameRecordDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/model/PitcherGameRecord.java" />
+        <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
@@ -1306,8 +1307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1315,7 +1316,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
           <folding />
         </state>
       </provider>
