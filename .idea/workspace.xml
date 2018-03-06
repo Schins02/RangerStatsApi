@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d51b1d0-3246-48c7-b32c-228b5be02eb4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/core/model/HitterGameRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/core/model/PitcherGameRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/db/HitterGameRecordDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/db/PitcherGameRecordDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/db/PitcherSeasonStatsDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/resources/HitterGameRecordResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/resources/PitcherGameRecordResource.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/core/Player.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/core/Player.java" afterPath="$PROJECT_DIR$/src/main/java/core/model/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/api-1.0-SNAPSHOT-javadoc.jar" afterPath="$PROJECT_DIR$/target/api-1.0-SNAPSHOT-javadoc.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/api-1.0-SNAPSHOT-sources.jar" afterPath="$PROJECT_DIR$/target/api-1.0-SNAPSHOT-sources.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/api-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/RangersStatsApi$1.class" afterPath="$PROJECT_DIR$/target/classes/RangersStatsApi$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/RangersStatsApi.class" afterPath="$PROJECT_DIR$/target/classes/RangersStatsApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/db/PlayerDAO.class" afterPath="$PROJECT_DIR$/target/classes/db/PlayerDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources/PlayerResource.class" afterPath="$PROJECT_DIR$/target/classes/resources/PlayerResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/original-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/original-api-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/RangersStatsApi.java" afterPath="$PROJECT_DIR$/src/main/java/RangersStatsApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/PlayerDAO.java" afterPath="$PROJECT_DIR$/src/main/java/db/PlayerDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/resources/PlayerResource.java" afterPath="$PROJECT_DIR$/src/main/java/resources/PlayerResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/ApiConfig.html" afterPath="$PROJECT_DIR$/target/apidocs/ApiConfig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/RangersStatsApi.html" afterPath="$PROJECT_DIR$/target/apidocs/RangersStatsApi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/class-use/ApiConfig.html" afterPath="$PROJECT_DIR$/target/apidocs/class-use/ApiConfig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/class-use/RangersStatsApi.html" afterPath="$PROJECT_DIR$/target/apidocs/class-use/RangersStatsApi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/core/Player.html" afterPath="$PROJECT_DIR$/target/apidocs/core/Player.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/core/class-use/Player.html" afterPath="$PROJECT_DIR$/target/apidocs/core/class-use/Player.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/core/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/core/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/core/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/core/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/core/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/core/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/core/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/core/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/db/PlayerDAO.html" afterPath="$PROJECT_DIR$/target/apidocs/db/PlayerDAO.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/db/class-use/PlayerDAO.html" afterPath="$PROJECT_DIR$/target/apidocs/db/class-use/PlayerDAO.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/db/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/db/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/db/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/db/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/db/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/db/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/db/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/db/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="$PROJECT_DIR$/target/apidocs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/package-list" afterPath="$PROJECT_DIR$/target/apidocs/package-list" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/resources/PlayerResource.html" afterPath="$PROJECT_DIR$/target/apidocs/resources/PlayerResource.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/resources/class-use/PlayerResource.html" afterPath="$PROJECT_DIR$/target/apidocs/resources/class-use/PlayerResource.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/resources/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/resources/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/resources/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/resources/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/resources/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/resources/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/resources/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/resources/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/model/PitcherGameRecord.java" afterPath="$PROJECT_DIR$/src/main/java/core/model/PitcherGameRecord.java" />
     </list>
     <ignored path="RangersStatsApi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,7 +33,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#284#285#0" expanded="false" />
+                <element signature="e#314#315#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,7 +47,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="37" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +59,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="37" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +71,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1077#1078#0" expanded="false" />
+                <element signature="e#1129#1130#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,7 +85,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#445#446#0" expanded="false" />
+                <element signature="e#484#485#0" expanded="false" />
+                <element signature="e#569#570#0" expanded="false" />
+                <element signature="e#600#601#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,7 +101,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,7 +113,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,7 +125,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#288#289#0" expanded="false" />
+                <element signature="e#318#319#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,7 +139,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,8 +149,8 @@
       <file leaf-file-name="PitcherGameRecord.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/model/PitcherGameRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48289737">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -883,7 +853,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -953,7 +925,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,7 +1015,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1077#1078#0" expanded="false" />
+            <element signature="e#1129#1130#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1248,7 +1226,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#445#446#0" expanded="false" />
+            <element signature="e#484#485#0" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#600#601#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1256,7 +1240,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1077#1078#0" expanded="false" />
+            <element signature="e#1129#1130#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1264,7 +1252,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1272,7 +1262,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#284#285#0" expanded="false" />
+            <element signature="e#314#315#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,7 +1274,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1288,7 +1284,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,7 +1294,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1304,7 +1304,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#288#289#0" expanded="false" />
+            <element signature="e#318#319#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,14 +1316,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/model/PitcherGameRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48289737">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
