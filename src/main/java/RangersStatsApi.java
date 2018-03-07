@@ -13,7 +13,7 @@ import io.dropwizard.setup.Environment;
 //TODO : log some stuff?
 import resources.*;
 
-//TODO: HACK TO MAKE DB WORK FOR HEROKU
+//TODO: HACK TO MAKE DB WORK FOR HEROKU?
 
 public class RangersStatsApi extends Application<ApiConfig> {
 
