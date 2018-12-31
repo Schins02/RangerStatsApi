@@ -40,6 +40,7 @@ public class Player {
     public String getlastName() {
         return lastName;
     }
+    public String getPosition() { return position; }
     public String getTeam() {
         return team;
     }
@@ -52,6 +53,7 @@ public class Player {
     public String getHeight() {
         return height;
     }
+    public int getAge() { return age; }
     public int getWeight() {
         return weight;
     }

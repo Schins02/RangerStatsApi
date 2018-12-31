@@ -10,7 +10,10 @@ import java.util.Date;
 @Table(name = "rangerstats_pitcher_season_stats")
 @NamedQueries({
         @NamedQuery(name = "core.model.PitcherSeasonStats.findByPlayerAndYear",
-                query = "select pss from PitcherSeasonStats pss where pss.playerId = :playerId and year(pss.seasonYear) = :year")
+                query = "select pss from PitcherSeasonStats pss where pss.playerId = :playerId and year(pss.seasonYear) = :year"),
+
+        @NamedQuery(name = "core.model.PitcherSeasonStats.findAll",
+                query = "select pss from PitcherSeasonStats pss")
 
 })
 public class PitcherSeasonStats {
@@ -30,6 +33,8 @@ public class PitcherSeasonStats {
     private int k;
     @Column(name = "bb_per_nine")
     private double bbPerNine;
+    @Column(name = "hr_per_nine")
+    private double hrPerNine;
     private double babip;
     private double era;
     private double fip;
@@ -51,6 +56,7 @@ public class PitcherSeasonStats {
     public double getKPerNine() { return kPerNine; }
     public int getK() { return k; }
     public double getBbPerNine() { return bbPerNine; }
+    public double getHrPerNine() { return hrPerNine; }
     public double getBabip() { return babip; }
     public double getEra() { return era; }
     public double getFip() { return fip; }

@@ -21,6 +21,14 @@ public class PitcherGameRecordResource {
     }
 
     @GET
+    @Path("/{playerId}")
+    @UnitOfWork
+    public List<PitcherGameRecord> findByPlayer(@PathParam("playerId") LongParam playerId) {
+        List<PitcherGameRecord> r = pitcherGameRecordDAO.getByPlayer(playerId.get());
+        return r;
+    }
+
+    @GET
     @Path("/{id}/{year}")
     @UnitOfWork
     public List<PitcherGameRecord> findByIdAndYear(@PathParam("id") LongParam id, @PathParam("year") int year) {

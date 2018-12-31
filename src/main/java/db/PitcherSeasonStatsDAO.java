@@ -28,4 +28,8 @@ public class PitcherSeasonStatsDAO extends AbstractDAO<PitcherSeasonStats> {
                 .setParameter("id", playerId)
                 .setParameter("year", year));
     }
+
+    public List<PitcherSeasonStats> findAll() {
+        return list(namedQuery("core.model.PitcherSeasonStats.findAll"));
+    }
 }

@@ -34,12 +34,4 @@ public class PlayerResource {
         return playerDAO.findAll();
     }
 
-//    @GET
-//    @Path("/{id}/stats/{year}")
-//    @UnitOfWork
-//    public Map<Player, >
-
-
-    //stats for player
-
 }

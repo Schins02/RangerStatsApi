@@ -4,11 +4,18 @@ import java.util.Date;
 
 @Entity
 @Table(name = "rangerstats_pitcher_game_record")
+
 @NamedQueries({
+        @NamedQuery(name = "core.model.PitcherGameRecord.findByPlayer",
+                query = "select pgr from PitcherGameRecord pgr " +
+                        "where pgr.playerId = :playerId order by pgr.gameDate"),
+
         @NamedQuery(name = "core.model.PitcherGameRecord.findByPlayerAndYear",
-                query = "select pgr from PitcherGameRecord pgr where pgr.playerId = :playerId and year(pgr.gameDate) = :year")
+                query = "select pgr from PitcherGameRecord pgr " +
+                        "where pgr.playerId = :playerId and year(pgr.gameDate) = :year")
 
 })
+
 public class PitcherGameRecord {
     @Id
     private long id;

@@ -5,11 +5,18 @@ import java.util.Date;
 
 @Entity
 @Table(name = "rangerstats_hitter_game_record")
+
 @NamedQueries({
+        @NamedQuery(name = "core.model.HitterGameRecord.findByPlayer",
+                query = "select hgr from HitterGameRecord hgr " +
+                        "where hgr.playerId = :playerId order by hgr.gameDate"),
+
         @NamedQuery(name = "core.model.HitterGameRecord.findByPlayerAndYear",
-                query = "select hgr from HitterGameRecord hgr where hgr.playerId = :playerId and year(hgr.gameDate) = :year")
+                query = "select hgr from HitterGameRecord hgr " +
+                        "where hgr.playerId = :playerId and year(hgr.gameDate) = :year")
 
 })
+
 public class HitterGameRecord {
     @Id
     private long id;

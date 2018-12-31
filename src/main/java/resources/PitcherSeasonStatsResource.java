@@ -10,6 +10,8 @@ import db.PitcherSeasonStatsDAO;
 import io.dropwizard.hibernate.UnitOfWork;
 import io.dropwizard.jersey.params.LongParam;
 
+import java.util.List;
+
 @Path("/pitcher-season-stats")
 @Produces(MediaType.APPLICATION_JSON)
 public class PitcherSeasonStatsResource {
@@ -26,11 +28,11 @@ public class PitcherSeasonStatsResource {
         return pitcherSeasonStatsDAO.findById(id.get());
     }
 
-//    @GET
-//    @Path("/{id}")
-//    @UnitOfWork
-//    public Optional<Player> findById(@PathParam("id") LongParam id) {
-//        return playerDAO.findById(id.get());
-//    }
+    @GET
+    @Path("/all")
+    @UnitOfWork
+    public List<PitcherSeasonStats> findAll() {
+        return pitcherSeasonStatsDAO.findAll();
+    }
 
 }

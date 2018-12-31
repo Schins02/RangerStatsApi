@@ -5,6 +5,7 @@ import javax.ws.rs.core.MediaType;
 
 import com.google.common.base.Optional;
 import core.model.HitterSeasonStats;
+import core.model.Player;
 import db.HitterSeasonStatsDAO;
 import io.dropwizard.hibernate.UnitOfWork;
 import io.dropwizard.jersey.params.LongParam;
@@ -32,6 +33,13 @@ public class HitterSeasonStatsResource {
     @UnitOfWork
     public List<HitterSeasonStats> findByIdAndYear(@PathParam("id") LongParam id, @PathParam("year") int year) {
         return hitterSeasonStatsDAO.findByPlayerAndYear(id.get(), year);
+    }
+
+    @GET
+    @Path("/all")
+    @UnitOfWork
+    public List<HitterSeasonStats> findAll() {
+        return hitterSeasonStatsDAO.findAll();
     }
 
 }

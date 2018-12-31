@@ -7,9 +7,13 @@ import java.util.Date;
 @Table(name = "rangerstats_hitter_season_stats")
 @NamedQueries({
         @NamedQuery(name = "core.model.HitterSeasonStats.findByPlayerAndYear",
-                query = "select  hss from HitterSeasonStats hss where hss.playerId = :playerId and year(hss.seasonYear) = :year")
+                query = "select  hss from HitterSeasonStats hss where hss.playerId = :playerId and year(hss.seasonYear) = :year"),
+
+        @NamedQuery(name = "core.model.HitterSeasonStats.findAll",
+        query = "select hss from HitterSeasonStats hss")
 
 })
+
 public class HitterSeasonStats {
     @Id
     private long id;
@@ -52,6 +56,10 @@ public class HitterSeasonStats {
 
     public int getPa() {
         return pa;
+    }
+
+    public int getAb() {
+        return ab;
     }
 
     public double getAvg() { return avg; }

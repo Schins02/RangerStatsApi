@@ -12,6 +12,11 @@ public class HitterGameRecordDAO extends AbstractDAO<HitterGameRecord> {
         super(factory);
     }
 
+    public List<HitterGameRecord> getByPlayer(Long playerId) {
+        return list(namedQuery("core.model.HitterGameRecord.findByPlayer")
+                .setParameter("playerId", playerId));
+    }
+
     public List<HitterGameRecord> getByPlayerAndYear(Long playerId, int year) {
         return list(namedQuery("core.model.HitterGameRecord.findByPlayerAndYear")
                 .setParameter("playerId", playerId)
